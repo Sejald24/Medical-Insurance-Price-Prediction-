@@ -59,17 +59,24 @@ Ensured the model used only relevant predictors, improving performance and inter
 **Modeling:**
 
 Tried various regression models, including:
+
 Linear Regression: Baseline model to understand feature relationships.
+
 Regularization Models: Ridge and Lasso for handling multicollinearity.
+
 Support Vector Regression (SVR): For better handling of non-linearity.
+
 Random Forest Regressor: Performed the best, achieving an accuracy of 89.5%.
 
 
 **Model Evaluation:**
 
 Used metrics like:
+
 R-squared: To measure the goodness of fit.
+
 MAE & RMSE: To quantify prediction errors.
+
 The Random Forest Regressor was selected for deployment due to its balance of accuracy and robustness.
 
 
@@ -100,7 +107,7 @@ Solution: Detected and mitigated using Cook's Distance.
 
 **Value Proposition:**
 
--This model can assist insurance companies in:
+This model can assist insurance companies in:
 
 -Risk assessment and premium pricing.
 

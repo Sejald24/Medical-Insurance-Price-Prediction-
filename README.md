@@ -12,9 +12,13 @@ The primary goal of the project was to predict medical insurance premiums for in
 **2. Dataset:**
 
 Source: The dataset contained features like:
+
 Demographics: Age, Gender, Region.
+
 Health Indicators: BMI, Smoking status.
+
 Target Variable: Insurance Charges.
+
 Size and Characteristics: Describe the dataset (number of rows, features, etc.).
 
 
@@ -25,6 +29,7 @@ Size and Characteristics: Describe the dataset (number of rows, features, etc.).
 **Cleaning:**
 
 Checked for missing values and duplicates to ensure data quality.
+
 Addressed anomalies, like outliers, using Cook's Distance.
 
 **Encoding:**
@@ -38,8 +43,11 @@ Used normalization/standardization for continuous variables like BMI and Age for
 **Exploratory Data Analysis (EDA):**
 
 Used visualizations like scatter plots, box plots, and heatmaps to identify key trends:
+
 Smoking significantly increased premiums.
+
 Higher BMI values were correlated with higher charges.
+
 Region had less influence compared to smoking and BMI.
 
 
@@ -68,8 +76,11 @@ The Random Forest Regressor was selected for deployment due to its balance of ac
 **6. Challenges and Solutions:**
 
 Challenge: High variance in insurance charges due to smokers.
+
 Solution: Introduced smoker as a categorical variable and ensured feature encoding preserved information.
+
 Challenge: Outliers in insurance charges caused by extreme BMI or age.
+
 Solution: Detected and mitigated using Cook's Distance.
 
 
@@ -78,23 +89,29 @@ Solution: Detected and mitigated using Cook's Distance.
 **Outcome:**
 
 -Predicted insurance charges with high accuracy.
+
 -Delivered a model that could generalize well to new data.
 
 **Insights:**
 
 -Smokers pay significantly higher premiums than non-smokers.
+
 -BMI and age are strong predictors, while region has limited impact.
 
 **8. Value Proposition:**
 
 -This model can assist insurance companies in:
+
 -Risk assessment and premium pricing.
+
 -Identifying customer segments to target for health interventions.
 
 **10. Takeaways:**
 
 -Learned how to handle real-world data (e.g., outliers, categorical features).
+
 -Gained expertise in feature selection, EDA, and model evaluation.
+
 -Strengthened skills in regression techniques and improving model accuracy.
 
 

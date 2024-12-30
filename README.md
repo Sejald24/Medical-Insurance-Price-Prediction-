@@ -65,7 +65,7 @@ Support Vector Regression (SVR): For better handling of non-linearity.
 Random Forest Regressor: Performed the best, achieving an accuracy of 89.5%.
 
 
-**5. Model Evaluation:**
+**Model Evaluation:**
 
 Used metrics like:
 R-squared: To measure the goodness of fit.
@@ -73,7 +73,7 @@ MAE & RMSE: To quantify prediction errors.
 The Random Forest Regressor was selected for deployment due to its balance of accuracy and robustness.
 
 
-**6. Challenges and Solutions:**
+**Challenges and Solutions:**
 
 Challenge: High variance in insurance charges due to smokers.
 
@@ -84,7 +84,7 @@ Challenge: Outliers in insurance charges caused by extreme BMI or age.
 Solution: Detected and mitigated using Cook's Distance.
 
 
-**7. Outcome and Insights:**
+**Outcome and Insights:**
 
 **Outcome:**
 
@@ -98,7 +98,7 @@ Solution: Detected and mitigated using Cook's Distance.
 
 -BMI and age are strong predictors, while region has limited impact.
 
-**8. Value Proposition:**
+**Value Proposition:**
 
 -This model can assist insurance companies in:
 
@@ -106,7 +106,7 @@ Solution: Detected and mitigated using Cook's Distance.
 
 -Identifying customer segments to target for health interventions.
 
-**10. Takeaways:**
+**Takeaways:**
 
 -Learned how to handle real-world data (e.g., outliers, categorical features).
 
